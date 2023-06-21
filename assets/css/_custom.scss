@@ -1,0 +1,25 @@
+body {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+html {
+    min-height: 100vh;
+    background-color: var(--light);
+}
+
+.container {
+    text-align: center;
+    max-width: 65ch;
+    padding: 0 1rem;
+}
+
+.wide-container {
+    text-align: center;
+    max-width: 95ch;
+    padding: 0 1rem;
+}
+
+.round-image & > img {border-radius: 3rem;}
+.image-border & > img { border: solid .5rem var(--wood)}
