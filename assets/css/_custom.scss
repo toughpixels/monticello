@@ -77,11 +77,13 @@ header {
 @font-face {
     font-family: "Comfortaa";
     src: url("fonts/Comfortaa-VariableFont_wght.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Faustina";
     src: url("fonts/Faustina-VariableFont_wght.ttf");
+    font-display: swap;
 }
 
 h1,
