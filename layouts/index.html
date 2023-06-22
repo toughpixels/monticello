@@ -1,7 +1,8 @@
 {{ define "main" }}
 <div class="width-limit">
   <h1 class="sr-only">{{ .Title }}</h1>
-  <div class="round-image image-border">{{ .Content }}</div>
+  <div class="round-image image-border star-time">{{ .Content }}</div>
   {{ with .Site.GetPage "/plants" }} {{ .Render }} {{ end }}
+  {{ partial "nav/join-in.html" . }}
 </div>
 {{ end }}

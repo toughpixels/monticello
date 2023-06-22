@@ -41,7 +41,7 @@ h2 {
 
 .title-ceramic-tile {
     fill: var(--black);
-    stroke: var(--wood);
+    stroke: var(--undergrowth);
     stroke-width: .15;
 }
 
@@ -77,10 +77,71 @@ header {
     src: url("fonts/Faustina-VariableFont_wght.ttf");
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.header-font {
     font-family: "Comfortaa", "system-ui", "sans-serrif";
 }
 
 body {
     font-family: "Faustina", "serrif";
+}
+
+.join-in-clickable {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--flower);
+    border-radius: 1rem;
+    border: solid var(--wood);
+    font-weight: 800;
+}
+
+.shadow-right {
+    box-shadow: 2px 2px 2px 1px var(--flower-dark);
+}
+
+.shadow-left {
+    box-shadow: -2px 2px 2px 1px var(--flower-dark);
+}
+
+.join-in-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .2rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-center {
+    align-items: center;
+    justify-items: center;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+.w100 {
+    width: 100%
+}
+
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover, .grow:focus {
+    transform: scale(1.1);
+}
+
+.star-time {
+    
 }
