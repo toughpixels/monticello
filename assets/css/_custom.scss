@@ -120,6 +120,11 @@ body {
 
 @media screen and (min-width: 600px) {
     .join-in-clickable {
+        font-size: 120%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .join-in-clickable {
         font-size: 150%;
     }
 }
