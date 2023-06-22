@@ -14,4 +14,4 @@ The garden started as an informal project. After an abandoned building was torn 
 
 NeighborSpace visited the garden joining the NeighborSpace program began in 2008. Established as a NeighborSpace garden, the gardeners received support for building six more raised beds, completed in 2011.
 
-There are movies in the garden, an annual block party, and a beautiful mosaic sign made with from neighborhood children.
+There are movies in the garden, an annual block party, and a beautiful mosaic sign made with from neighborhood children. See more past and future events at our [Facebook](https://www.facebook.com/monticellogarden).
