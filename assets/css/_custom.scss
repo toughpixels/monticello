@@ -142,6 +142,7 @@ body {
 }
 
 .grow {
+    box-shadow: 2px 2px 2px 1px var(--flower-dark);
     transition: box-shadow;
     transition-duration: 2s;
 }
@@ -155,10 +156,6 @@ body {
 }
 
 @keyframes hover-button {
-    0% {
-        box-shadow: 2px 2px 2px 1px var(--flower-dark);
-    }
-
     10% {
         box-shadow: none;
     }
