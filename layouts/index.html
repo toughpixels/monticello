@@ -1,9 +1,7 @@
 {{ define "main" }}
-    <div class="welcome-text wiggle">Welcome To</div>
-    <h1>{{ .Title }}</h1>
-    <div class="round-image image-border">{{ .Content }}</div>
-    {{ with .Site.GetPage "/plants" }} 
-        <h2>{{ .Title }}</h2>
-        {{.Content}}
-    {{ end }}
+<div class="width-limit">
+  <h1 class="sr-only">{{ .Title }}</h1>
+  <div class="round-image image-border">{{ .Content }}</div>
+  {{ with .Site.GetPage "/plants" }} {{ .Render }} {{ end }}
+</div>
 {{ end }}

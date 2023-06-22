@@ -1,3 +1,14 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://monticellocommunitygarden.com/"
+languageCode = "en-us"
+title = "Monticello Community Garden"
+theme = 'base'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[params]
+  description = "A welcoming community garden wedged between Chicago's Logan Square and Hermosa neighborhoods."
+  title = "Hermose Community Garden"
+  author = "Tough Pixels"
+  imageSizes = "1280 768 640 320"
+  imageFormats = "webp jpeg"

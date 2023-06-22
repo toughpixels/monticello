@@ -1,25 +1,86 @@
 body {
-    display: grid;
+    overflow-x: hidden;
     justify-content: center;
     text-align: center;
 }
 
 html {
     min-height: 100vh;
-    background-color: var(--light);
+    background: linear-gradient(17deg, var(--light), var(--undergrowth));
 }
 
 .container {
     text-align: center;
-    max-width: 65ch;
     padding: 0 1rem;
 }
 
-.wide-container {
-    text-align: center;
-    max-width: 95ch;
-    padding: 0 1rem;
+.width-limit {
+    max-width: 70ch;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.round-image & > img {border-radius: 3rem;}
-.image-border & > img { border: solid .5rem var(--wood)}
+.large-width-limit {
+    max-width: 90ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.round-image img {
+    border-radius: 3rem;
+}
+
+.image-border img {
+    border: solid .5rem var(--wood);
+    border-image-slice: 1;
+}
+
+h2 {
+    text-decoration-line: underline;
+}
+
+.title-ceramic-tile {
+    fill: var(--black);
+    stroke: var(--wood);
+    stroke-width: .15;
+}
+
+header {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer-overgrowth {
+    width: 102%;
+    margin-left: -1%;
+    fill: var(--wood);
+    stroke: var(--undergrowth);
+    stroke-width: .2;
+}
+
+.list-grid ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    text-align: left;
+    list-style: none;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url("fonts/Comfortaa-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Faustina";
+    src: url("fonts/Faustina-VariableFont_wght.ttf");
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Comfortaa", "system-ui", "sans-serrif";
+}
+
+body {
+    font-family: "Faustina", "serrif";
+}
