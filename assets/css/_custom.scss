@@ -38,7 +38,8 @@ html {
 }
 
 .image-border img {
-    border: solid .5rem var(--flower);
+    border: solid var(--flower);
+    border-width: .2rem;
     border-image-slice: 1;
 }
 
@@ -122,10 +123,16 @@ body {
     .join-in-clickable {
         font-size: 120%;
     }
+    .image-border {
+        border-width: .3rem;
+    }
 }
 @media screen and (min-width: 1200px) {
     .join-in-clickable {
         font-size: 150%;
+    }
+    .image-border {
+        border-width: .4rem;
     }
 }
 
