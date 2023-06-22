@@ -119,23 +119,6 @@ body {
     font-weight: 800;
 }
 
-@media screen and (min-width: 600px) {
-    .join-in-clickable {
-        font-size: 120%;
-    }
-    .image-border {
-        border-width: .3rem;
-    }
-}
-@media screen and (min-width: 1200px) {
-    .join-in-clickable {
-        font-size: 150%;
-    }
-    .image-border {
-        border-width: .4rem;
-    }
-}
-
 .join-in-grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: .2rem;
@@ -159,7 +142,7 @@ body {
 }
 
 .grow {
-    transition: all;
+    transition: box-shadow;
     transition-duration: 2s;
 }
 
@@ -188,4 +171,22 @@ body {
 .pv-sm {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 600px) {
+    .join-in-clickable {
+        font-size: 120%;
+    }
+    .image-border img {
+        border-width: .3rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .join-in-clickable {
+        font-size: 150%;
+    }
+    .image-border img {
+        border-width: .4rem;
+    }
 }
